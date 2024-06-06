@@ -15,7 +15,7 @@ export default defineConfig({
         collapsed: false,
         items: [
           { text: 'Introduction', link: '/orah/' },
-          { text: 'Pass Types', link: '/orah/passes'},
+          { text: 'Pass Types', link: '/orah/pass'},
           { text: 'How to submit Pass', link: '/orah/how_to_submit_a_pass'},
         ],
       },
