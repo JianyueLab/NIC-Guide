@@ -7,19 +7,29 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/'},
-      { text: 'Orah', link: '/orah/'},
     ],
 
-    sidebar: {
-      '/orah/': {
-        text: '',
+    sidebar: [
+      {
+        text: 'Orah',
+        collapsed: false,
         items: [
-          { text: 'Index', link: '/orah/' },
-          { text: 'Pass', link: '/orah/pass' },
-          { text: 'How to submit a pass', link: '/orah/how_to_submit_a_pass'}
-        ]
+          { text: 'Introduction', link: '/orah/' },
+          { text: 'Pass Types', link: '/orah/passes'},
+          { text: 'How to submit Pass', link: '/orah/how_to_submit_a_pass'},
+        ],
       },
-    },
+      {
+        text: 'ManageBac',
+        collapsed: false,
+        items: [
+          { text: 'Introduction', link: '/managebac/' },
+          { text: 'Timetables', link: '/managebac/timetables' },
+          { text: 'Tasks', link: '/managebac/tasks' },
+          { text: 'Merits & Demerits', link: '/managebac/merit&demerit' },
+        ],
+      },
+    ],
 
     search: {
       provider: 'local'

@@ -1,9 +1,18 @@
-# Tasks for Subjects
+# How to find your tasks and assignments
 
-## Introduction
+There are multiple ways to see your assignments. The easiest way to see all of your assignments is to click the “Tasks & Deadlines” Icon.
 
-On the ManageBac, you can find all your subjects task and details of each task that you need to submit.
+![](/image/task&deadlines.png)
 
-How can you find tasks on ManageBac and check details?
+---
 
-## Task Overview
+If you want to look at your assignments on a specific class, you can check by clicking on the
+“Classes” icon on the left of your screen. It is the third button from the bottom.
+
+![](/image/classes.png)
+
+Then you’ll be taken to this screen:
+
+![](/image/pageofclass.png)
+
+All info needed is right here. You can see your upcoming assignments on the calendar, or you could click the “Tasks & Units” button on the top.

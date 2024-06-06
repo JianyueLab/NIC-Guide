@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "NIC School life Guide"
+  name: "NIC School Life Guide"
   text: "A website that explains school systems and lives."
   actions:
     - theme: brand
