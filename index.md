@@ -10,7 +10,7 @@ hero:
       link: /orah/
     - theme: alt
       text: Contribute
-      link: #
+      link: /contribute
 features:
   - title: ManageBac
     details: Explain how to use ManageBac properly.

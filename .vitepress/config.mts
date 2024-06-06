@@ -7,6 +7,7 @@ export default defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/'},
+      { text: 'Contribute', link: '/contribute' },
     ],
 
     sidebar: [
@@ -29,6 +30,12 @@ export default defineConfig({
           { text: 'Merits & Demerits', link: '/managebac/merit&demerit' },
         ],
       },
+      {
+        text: 'Other',
+        items: [
+          { text: 'Contribute', link: '/contribute' },
+        ],
+      },
     ],
 
     search: {
@@ -38,6 +45,10 @@ export default defineConfig({
     footer: {
       message: '<a href="https://creativecommons.org/licenses/by-nc/4.0/">Released under the CC BY-NC 4.0 Deed License.</a> Feel Free to copy and use information on this webpage.',
       copyright: 'Copyright © 2024 Jianyue Hugo Liang'
-    }
+    },
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/JianyueLab/NIC-Guide' },
+    ]
   }
 })
